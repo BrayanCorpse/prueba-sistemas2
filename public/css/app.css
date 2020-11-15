@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,200&display=swap');
+
+.b-h1 {
+    font: normal normal 600 22px/27px Montserrat;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+    opacity: 1;
+}
+
+.b-h2 {
+    font: normal normal 600 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+    opacity: 1;
+}
+
+.b-display {
+    display: -webkit-box;
+}
+
+.b-content {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+    opacity: 1;
+}
+
+.b-card {
+    background: #DED2BF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.b-label {
+    text-align: left;
+    font: normal normal 600 16px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+    opacity: 1;
+}
+
+.b-input {
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.b-button {
+    width: 147px;
+    height: 52px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    text-align: center;
+    font: normal normal 600 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+    opacity: 1;
+}
+
+.b-button:hover,
+.b-button:focus {
+    background: #BF995C 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+}
+
+.b-button:active {
+    background: #BF995C 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+}
+
+
+@media only screen and (max-width:960px) {
+    .b-button {
+      padding: 0%;
+      width: 32%;
+      height: 52px;
+      font: normal normal 600 14px/19px Montserrat;
+    }
+  }

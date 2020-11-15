@@ -1,100 +1,46 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>Laravel</title>
+@section('content')
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+<div class="uk-text-center">
+    <h1 class="b-h1 uk-margin-top">Crear una cuenta</h1>
+    <h2 class="b-h2 uk-margin-remove-top">Regístrate para obtener beneficios Kinky.</h2>
+</div>
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+<div class="uk-child-width-expand@s uk-text-center" uk-grid>
+    <div class="uk-margin-large-right">
+        <div class="uk-card b-display">
+            <div class=" uk-margin-small-right">
+                <img src="{{asset('img/heart.svg')}}"  alt="">
             </div>
+            <p class="b-content uk-margin-remove-top"><strong>Guarda</strong> tus Love Hotels y Habitaciones
+                <br>
+                favoritas.
+            </p>
         </div>
-    </body>
-</html>
+    </div>
+    <div class="uk-margin-remove-top">
+        <div class="uk-card b-display">
+            <div class=" uk-margin-small-right">
+                <img src="{{asset('img/mail.svg')}}"  alt="">
+            </div>
+            <p class="b-content uk-margin-remove-top"><strong>Recibe</strong> el mejor contenido.</p>
+        </div>
+    </div>
+    <div class="uk-margin-remove-top">
+        <div class="uk-card b-display">
+            <div class=" uk-margin-small-right">
+                <img src="{{asset('img/like.svg')}}"  alt="">
+            </div>
+            <p class="b-content uk-margin-remove-top"><strong>Califica</strong> los Love Hotels y sus
+                <br>
+                habitaciones.
+            </p>
+        </div>
+    </div>
+</div>
+
+@include('components.form')
+
+@endsection
+
