@@ -15,8 +15,8 @@
 <body>
 
     <div class="uk-container" uk-margin>
-        <div class="uk-margin-medium-top">
-            <img data-src="{{asset('img/kinkyh.png')}}" alt="Image" width="360" height="100" uk-img>
+        <div class="uk-margin-medium-top b-prn">
+            <div class="b-bg-img" ></div>
         </div>
     </div>
 

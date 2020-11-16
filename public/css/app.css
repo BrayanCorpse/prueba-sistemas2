@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,200&display=swap');
 
+.b-bg-img {
+    background-image: url('/img/kinkyh.png');
+    width: 370px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .b-h1 {
     font: normal normal 600 22px/27px Montserrat;
     letter-spacing: 0px;
@@ -39,40 +49,133 @@
     opacity: 1;
 }
 
-.b-input {
-    border-radius: 8px;
-    opacity: 1;
-}
-
-.b-button {
-    width: 147px;
-    height: 52px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border-radius: 8px;
-    text-align: center;
-    font: normal normal 600 16px/19px Montserrat;
+.b-label-sm {
+    text-align: left;
+    font: normal normal 600 12px/22px Montserrat;
     letter-spacing: 0px;
     color: #5A5A5A;
     opacity: 1;
 }
 
-.b-button:hover,
-.b-button:focus {
+.b-label-md {
+    text-align: left;
+    font: normal normal medium 12px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+}
+
+.b-underline {
+    text-align: left;
+    font: normal normal 600 14px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+}
+
+.b-input {
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.b-form-controls input[type=radio] {
+    display: none;
+  }
+
+.b-form-controlstwo input[type=radio] {
+    display: none;
+}
+
+input[type=radio]+label {
+    display: inline-block;
+    padding: 15px 10%;
+    margin-right: 4px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    color: #5A5A5A;
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  input[type=radio].b-visible:checked+label {
     background: #BF995C 0% 0% no-repeat padding-box;
     color: #FFFFFF;
 }
 
-.b-button:active {
+.b-form-controlstwo input[type=radio]+label {
+    display: inline-block;
+    padding: 15px 6%;
+    margin-right: 4px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    color: #5A5A5A;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.b-button-bk {
+    width: 340px;
+    height: 38px;
     background: #BF995C 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    text-align: center;
+    font: normal normal 600 14px/19px Montserrat;
+    letter-spacing: 0px;
     color: #FFFFFF;
+    opacity: 1;
+}
+
+.b-select {
+    width: 296px;
+    height: 48px;
+    border-radius: 8px;
+    text-align: left;
+    font: normal normal 600 14px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+}
+
+.b-radio {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
 
 @media only screen and (max-width:960px) {
-    .b-button {
-      padding: 0%;
-      width: 32%;
-      height: 52px;
+
+    input[type=radio]+label {
+      padding: 18px 25px;
       font: normal normal 600 14px/19px Montserrat;
+      margin-right: 0%;
     }
+
+    .b-form-controlstwo input[type=radio]+label {
+        padding: 15px 4%;
+        margin-right: 0%;
+    }
+
+    .b-prn {
+        text-align: -webkit-center;
+    }
+
+    .b-bg-img {
+        background-image: url('/img/kinky.png');
+        width: 89px;
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .b-select {
+        width: 212px;
+    }
+
+  }
+
+  @media only screen and (max-width:860px) {
+
+    .b-form-controlstwo input[type=radio]+label {
+        padding: 15px 4%;
+        margin-right: 0%;
+    }
+
   }

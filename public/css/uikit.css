@@ -1720,7 +1720,7 @@ select.uk-form-width-xsmall {
 .uk-radio:focus,
 .uk-checkbox:focus {
   outline: none;
-  border-color: #1e87f0;
+  border-color: #8B6932;
 }
 /*
  * Checked
@@ -1728,21 +1728,21 @@ select.uk-form-width-xsmall {
 .uk-radio:checked,
 .uk-checkbox:checked,
 .uk-checkbox:indeterminate {
-  background-color: #1e87f0;
-  border-color: transparent;
+  background-color: #BF995C;
+  border: solid #8B6932 2px;
 }
 /* Focus */
 .uk-radio:checked:focus,
 .uk-checkbox:checked:focus,
 .uk-checkbox:indeterminate:focus {
-  background-color: #0e6dcd;
+  background-color: #BF995C;
 }
 /*
  * Icons
  */
-.uk-radio:checked {
+/* .uk-radio:checked {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Ccircle%20fill%3D%22%23fff%22%20cx%3D%228%22%20cy%3D%228%22%20r%3D%222%22%20%2F%3E%0A%3C%2Fsvg%3E");
-}
+} */
 .uk-checkbox:checked {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2211%22%20viewBox%3D%220%200%2014%2011%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23fff%22%20points%3D%2212%201%205%207.5%202%205%201%205.5%205%2010%2013%201.5%22%20%2F%3E%0A%3C%2Fsvg%3E%0A");
 }
@@ -2410,7 +2410,7 @@ select.uk-form-width-xsmall {
  * Remove margin from the last-child
  */
 .uk-container > :last-child {
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 /*
  * Remove padding from nested containers
@@ -2639,7 +2639,7 @@ select.uk-form-width-xsmall {
  ========================================================================== */
 .uk-card-body {
   display: flow-root;
-  padding: 30px 30px;
+  padding: 15px 10px;
 }
 .uk-card-header {
   display: flow-root;
