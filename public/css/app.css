@@ -298,7 +298,7 @@ input[type=radio]+label {
     }
 
     .b-form-controlstwo input[type=radio]+label {
-        padding: 15px 3%;
+        padding: 15px 4%;
         margin-right: 0%;
     }
 
@@ -353,7 +353,7 @@ input[type=radio]+label {
   @media only screen and (max-width:860px) {
 
     .b-form-controlstwo input[type=radio]+label {
-        padding: 15px 4%;
+        padding: 15px 3%;
         margin-right: 0%;
     }
 
