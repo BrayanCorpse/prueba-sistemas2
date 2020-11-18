@@ -19,7 +19,7 @@
         <div class="uk-margin-medium-top b-prn">
             <a href="{{url('/')}}">
                 <div class="b-bg-img" ></div>
-            </a>
+            </a>     
         </div>
     </div>
 

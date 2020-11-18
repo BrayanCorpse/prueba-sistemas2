@@ -289,7 +289,6 @@ input[type=radio]+label {
     cursor: pointer;
 }
 
-
 @media only screen and (max-width:960px) {
 
     input[type=radio]+label {

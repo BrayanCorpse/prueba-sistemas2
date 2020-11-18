@@ -2,6 +2,8 @@
 
 @section('content')
 
+<a class="uk-position-top-right uk-margin-medium-top uk-margin-medium-right uk-link-muted" href="{{url('/')}}" uk-icon="icon:  sign-out; ratio: 2"></a>
+
 <h1 class="b-h1 uk-margin-remove-top"> Slider </h1>
 
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true">
