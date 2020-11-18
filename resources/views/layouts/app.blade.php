@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Let's Kinky</title>
+    <link rel="shortcut icon" href="{{asset('img/kinky.png')}}" type="image/x-icon">
 
     {{-- Css --}}
     <link rel="stylesheet" href="{{asset('css/uikit.css')}}">
