@@ -1,8 +1,8 @@
 @extends('layouts.app')
+<a class="uk-position-top-right uk-margin-medium-top uk-margin-small-right uk-link-muted" href="{{url('/')}}" uk-icon="icon:  sign-out; ratio: 2"></a>
 
 @section('content')
 
-<a class="uk-position-top-right uk-margin-medium-top uk-margin-medium-right uk-link-muted" href="{{url('/')}}" uk-icon="icon:  sign-out; ratio: 2"></a>
 
 <h1 class="b-h1 uk-margin-remove-top"> Slider </h1>
 
