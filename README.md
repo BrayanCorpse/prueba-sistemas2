@@ -14,6 +14,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 * Composer install
 * Create a ".env" file by use the env.example file.
+* Create a new database with the name "sugerencia" then use the sql script "sugerencia.sql"
 * Run command: php artisan migrate
 * php artisan key:generate
 
