@@ -11,12 +11,15 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     {{-- Js --}}
     <script src="{{asset('js/uikit.min.js')}}"></script>
+    <script src="{{asset('js/uikit-icons.min.js')}}"></script>
 </head>
 <body>
 
     <div class="uk-container" uk-margin>
         <div class="uk-margin-medium-top b-prn">
-            <div class="b-bg-img" ></div>
+            <a href="{{url('/')}}">
+                <div class="b-bg-img" ></div>
+            </a>
         </div>
     </div>
 

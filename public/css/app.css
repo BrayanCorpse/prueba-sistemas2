@@ -24,6 +24,21 @@
     opacity: 1;
 }
 
+.b-h2-w {
+    font: normal normal 600 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.b-p {
+    text-align: left;
+    font: normal normal normal 16px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+    opacity: 1;
+}
+
 .b-display {
     display: -webkit-box;
 }
@@ -111,6 +126,18 @@ input[type=radio]+label {
     cursor: pointer;
 }
 
+.b-button {
+    width: 140px;
+    height: 36px;
+    background: #BF995C 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    text-align: center;
+    font: normal normal 600 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
 .b-button-bk {
     width: 340px;
     height: 38px;
@@ -136,6 +163,130 @@ input[type=radio]+label {
 .b-radio {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+
+.b-panel {
+    width: 254px;
+    height: 325px;
+    background: #DED2BF 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.b-rel {
+    position: relative;
+}
+
+.b-back {
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    width: 36px;
+    height: 36px;
+}
+
+.b-info {
+    position: absolute;
+    top: 15px;
+    left: 255px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.b-icon {
+    position: absolute;
+    bottom: 15px;
+    left: 265px;
+}
+
+.b-tittle {
+    position: absolute;
+    top: 250px;
+    left: 12%;
+    text-align: left;
+    font: normal normal 600 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #5A5A5A !important;
+    opacity: 1;
+}
+
+.b-small {
+    text-align: center;
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.b-card-rl {
+    position: relative;
+}
+
+.b-blog-ct {
+    position: absolute;
+    top: 35%;
+    left: 9%;
+}
+
+.b-modal {
+    background: #DED2BF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 8px;
+}
+
+.b-list {
+    width: 236px;
+    height: 177px;
+    background: #DED2BF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 3px #00000040;
+    border-radius: 8px;
+    opacity: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0% !important;
+}
+
+.b-li {
+    width: 236px;
+    height: 60px;
+}
+
+.b-li:hover {
+    background: #BF995C 0% 0% no-repeat padding-box;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.b-li a:hover {
+    color: #FFFFFF !important;
+}
+
+.b-option {
+    margin-left: 10%;
+    text-align: start;
+    padding: 22px 0 !important;
+    font: normal normal 600 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #5A5A5A !important;
+    opacity: 1;
+}
+
+.b-icon ::-webkit-scrollbar {
+    display: none;
+}
+
+.b-share {
+    position: absolute;
+    bottom: 8%;
+    left: 80%;
+    cursor: pointer;
+}
+
+.b-heartbr {
+    position: absolute;
+    bottom: 7%;
+    left: 90%;
+    cursor: pointer;
 }
 
 
@@ -169,6 +320,35 @@ input[type=radio]+label {
         width: 212px;
     }
 
+    .b-width {
+        width: 80%;
+    }
+
+    .b-back {
+        position: absolute;
+        top: 10px;
+        left: 240px;
+    }
+    
+    .b-info {
+        position: absolute;
+        top: 15px;
+        left: 245px;
+    }
+
+    .b-icon {
+        position: absolute;
+        bottom: 15px;
+        left: 260px;
+    }
+
+    .b-blog-ct {
+        position: absolute;
+        top: 25%;
+        left: 0%;
+    }
+    
+
   }
 
   @media only screen and (max-width:860px) {
@@ -178,4 +358,10 @@ input[type=radio]+label {
         margin-right: 0%;
     }
 
+  }
+
+  @media only screen and (min-width:860px) {
+    .b-width {
+        width: 40%;
+    }
   }
